@@ -1,5 +1,7 @@
 package metaint.replanet.rest.auth.dto;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import metaint.replanet.rest.auth.entity.MemberRole;
 import metaint.replanet.rest.auth.entity.Member;
 import lombok.AllArgsConstructor;
