@@ -118,6 +118,7 @@ CREATE TABLE `tbl_member`
     `provider` varchar(255) NOT NULL DEFAULT 'REPLANET' COMMENT '가입플랫폼',
     `provider_id` varchar(255) NOT NULL DEFAULT 'REPLANET' COMMENT '가입플랫폼ID',
     `withdraw_reason`    VARCHAR(1000) COMMENT '탈퇴사유',
+    `temp_pwd` varchar(255) DEFAULT NULL COMMENT '임시비밀번호',
     PRIMARY KEY ( `member_code` )
 ) COMMENT = '회원정보';
 # 개인정보동의여부, 주민등록번호 추가됨 231124
@@ -175,17 +176,6 @@ CREATE TABLE `tbl_review_comment`
 ) COMMENT = '후기댓글';
 
 
-
-
-
-DROP TABLE `tbl_refresh_token`;
-
-CREATE TABLE `tbl_refresh_token`
-(
-    `rt_key`    VARCHAR(255) NOT NULL COMMENT '리프레시 토큰 키',
-    `rt_value`    VARCHAR(255) NOT NULL COMMENT '리프레시 토큰 값',
-    PRIMARY KEY ( `rt_key` )
-) COMMENT = '리프레시토큰';
 
 CREATE TABLE `tbl_org`
 (
