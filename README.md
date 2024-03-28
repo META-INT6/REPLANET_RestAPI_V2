@@ -5,6 +5,9 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMETA-INT6%2FREPLANET_RestAPI_V2&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
+<p align="middle">🔎 프론트 서버 레포지토리 : 
+https://github.com/babyybiss/REPLANET_React_V2</p>
+</div><br/>
 </div>
 
 # REPLANET_RestAPI_V2
